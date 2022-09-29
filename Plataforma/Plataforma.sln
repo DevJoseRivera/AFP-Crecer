@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.MedicalCenter.UnitTests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.MedicalCenter.IntegrationTests", "Api.MedicalCenter.IntegrationTests\Api.MedicalCenter.IntegrationTests.csproj", "{BDAF5881-61D0-419A-966F-6ED0E9F4ABD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Clients", "Library.Clients\Library.Clients.csproj", "{FCA37B25-2A6F-46C6-A04F-82CE9F1EB2E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{BDAF5881-61D0-419A-966F-6ED0E9F4ABD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDAF5881-61D0-419A-966F-6ED0E9F4ABD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDAF5881-61D0-419A-966F-6ED0E9F4ABD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA37B25-2A6F-46C6-A04F-82CE9F1EB2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA37B25-2A6F-46C6-A04F-82CE9F1EB2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA37B25-2A6F-46C6-A04F-82CE9F1EB2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA37B25-2A6F-46C6-A04F-82CE9F1EB2E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

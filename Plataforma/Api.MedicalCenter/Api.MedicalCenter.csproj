@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Api.Common\Api.Common.csproj" />
     <ProjectReference Include="..\Domain.Core\Domain.Core.csproj" />
+    <ProjectReference Include="..\Library.Clients\Library.Clients.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
 
