@@ -20,4 +20,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Api.Common.IntegrationTests\Api.Common.IntegrationTests.csproj" />
+    <ProjectReference Include="..\Api.MedicalCenter\Api.MedicalCenter.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -174,7 +174,7 @@ namespace Api.MedicalCenter.Controller
 
                 response.Item = especialidad.ToDetailsModel();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return response.ToInternalServerError("Ocurrio un error interno en el servidor.");
             }
