@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.MedicalCenter", "Api.Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Common", "Api.Common\Api.Common.csproj", "{BA3DB3BF-BE52-4D76-9B7D-5667E91C711A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Common.UnitTests", "Api.Common.UnitTests\Api.Common.UnitTests.csproj", "{21E569AA-3A59-4F33-BA23-3D522E98A375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Common.IntegrationTests", "Api.Common.IntegrationTests\Api.Common.IntegrationTests.csproj", "{EE84ABAF-315D-4C61-9E31-58FF0A7DC0D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BA3DB3BF-BE52-4D76-9B7D-5667E91C711A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3DB3BF-BE52-4D76-9B7D-5667E91C711A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3DB3BF-BE52-4D76-9B7D-5667E91C711A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E569AA-3A59-4F33-BA23-3D522E98A375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E569AA-3A59-4F33-BA23-3D522E98A375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E569AA-3A59-4F33-BA23-3D522E98A375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E569AA-3A59-4F33-BA23-3D522E98A375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE84ABAF-315D-4C61-9E31-58FF0A7DC0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE84ABAF-315D-4C61-9E31-58FF0A7DC0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE84ABAF-315D-4C61-9E31-58FF0A7DC0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE84ABAF-315D-4C61-9E31-58FF0A7DC0D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
