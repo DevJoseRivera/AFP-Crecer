@@ -1,7 +1,6 @@
 ﻿namespace Domain.Core
 {
-    public class Class1
+    internal interface IEntity
     {
-
     }
 }
